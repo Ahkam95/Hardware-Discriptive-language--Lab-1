@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TrafficLight.srcs/sources_1/new/divider.vhd" \
+"../../../../TrafficLight.srcs/sources_1/new/finiteStateMachine.vhd" \
+"../../../../TrafficLight.srcs/sources_1/new/synchronizer.vhd" \
+"../../../../TrafficLight.srcs/sources_1/new/timeParameters.vhd" \
+"../../../../TrafficLight.srcs/sources_1/new/timer.vhd" \
+"../../../../TrafficLight.srcs/sources_1/new/walkRegister.vhd" \
+"../../../../TrafficLight.srcs/sources_1/new/trafficControllerMain.vhd" \
+
+# Do not sort compile order
+nosort
